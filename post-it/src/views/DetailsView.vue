@@ -74,7 +74,7 @@ export default {
 
   created() {
     this.id = this.$route.params.id;
-    this.url = "http://62.72.5.95:1999/notes/";
+    this.url = "https://post-it.epi-bluelock.bj/notes/";
 
     // console.log(this.url + this.id);
 

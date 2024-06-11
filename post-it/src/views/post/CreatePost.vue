@@ -78,7 +78,7 @@ export default {
       this.validateContent();
       this.validateTile();
       if (!this.titleError && !this.contentError) {
-        fetch("http://62.72.5.95:1999/notes", {
+        fetch("https://post-it.epi-bluelock.bj/notes", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
